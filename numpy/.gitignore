@@ -1,0 +1,28 @@
+# محیط مجازی
+learning_venv/
+venv/
+.env/
+
+# فایل‌های کش پایتون
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# تنظیمات VS Code
+.vscode/
+
+# فایل‌های Jupyter اجرا شده
+.ipynb_checkpoints/
+
+# دیتاست‌های حجیم
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.zip
+
+# فایل‌های سیستم
+.DS_Store
+Thumbs.db
