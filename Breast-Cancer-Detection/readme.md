@@ -10,13 +10,6 @@
 Breast cancer is a disease in which cells in the breast grow out of control. It typically starts in the inner lining of milk ducts or the lobules that supply the ducts with milk. These cancer cells can form a mass or tumor and, if left unchecked, can metastasize (spread) to other parts of the body.
 
 ---
-
-**Prevalence**
-
-- **Mortality Rate (Example/US based):**
-  - About **41,760** women will die from breast cancer (based on recent estimates). This stark figure underscores the critical need for advanced and accurate early detection tools.
-
----
 **Prevalence (Global Statistics)**
 
 - **Global Burden (2022):** Breast cancer is the **most commonly diagnosed cancer worldwide**, with an estimated **2.3 million** new cases diagnosed globally in women.
