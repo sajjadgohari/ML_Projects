@@ -60,4 +60,4 @@ I am genuinely excited about this project! My intense interest in **Artificial I
 
 Through this project, besides learning core Machine Learning concepts, I have gained profound and valuable insights into breast cancer, particularly the painful reality of its mortality rates. This knowledge has further fueled my strong motivation to develop better and more accurate detection projects in the future, ultimately aiming to help improve early diagnosis.
 
-I am following this project through various online tutorials (primarily on YouTube) and drawing inspiration from the structure and methodologies of previously completed projects in the ML community.
+I am following this project by utilizing **educational resources available on the internet** and drawing inspiration from the structure and methodologies of previously completed projects in the ML community.
