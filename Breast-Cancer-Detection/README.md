@@ -36,23 +36,66 @@ Machine Learning plays a crucial role by enabling systems to analyze complex pat
 
 ---
 
-# RESULTS
+# WHAT DID I DO AND WHAT IS THE RESULTS:
 
-**Current Project Status:**
 
-The initial data preprocessing steps have been successfully completed:
-* Data Loading (using the built-in `sklearn.datasets.load_breast_cancer`).
-* Initial Data Exploration.
-* Train-Test Split of the dataset.
-* Feature Normalization (Scaling) for optimal model performance.
 
-**Next Steps:**
+## 🎯 Overview
 
-The next phase will involve applying various classification algorithms (e.g., Logistic Regression, SVM, Decision Trees) and tuning their hyperparameters.
+## 💾 Dataset and Preprocessing
 
-***The final model performance metrics (Accuracy, F1-Score, etc.) will be updated here soon!***
+The project utilizes the **Wisconsin Breast Cancer (Diagnostic) Dataset**.
 
----
+| Characteristic | Value |
+| :--- | :--- |
+| **Number of Instances** | 569 |
+| **Number of Attributes** | 30 numerical, predictive features (e.g., radius, texture, perimeter) |
+| **Target Variable** | Malignant (1) or Benign (0) |
+
+### Preprocessing Steps
+
+1.  **Data Splitting**: The dataset was divided into an 80% Training set and a 20% Test set.
+2.  **Feature Scaling**: All 30 numerical features were normalized to the range (0, 1) using the `MinMaxScaler` from Scikit-learn to ensure features contribute equally to the model training.
+
+## 🤖 Models Tested
+
+The following seven classification models were trained and evaluated on the preprocessed data:
+
+1.  Gaussian Naive Bayes (`GaussianNB`)
+2.  **K-Nearest Neighbors (`KNN`)**
+3.  Decision Tree Classifier
+4.  Random Forest Classifier
+5.  Support Vector Machine (`SVM`) - with a 'poly' kernel
+6.  Logistic Regression
+7.  Artificial Neural Network (`ANN`) - via `MLPClassifier`
+
+## 📊 Results and Performance Analysis
+
+Model performance was primarily assessed using **Test Accuracy** (for generalization) and **Recall** (to minimize False Negatives, which is critical in medical diagnosis).
+
+### Performance Summary
+
+| Model | Train Accuracy | **Test Accuracy** | Precision | **Recall** |
+| :--- | :--- | :--- | :--- | :--- |
+| **KNN** | 0.989 | **0.991** | 0.986 | **1.000** |
+| SVM | 0.989 | **0.982** | 0.973 | **1.000** |
+| ANN (MLP) | 0.989 | **0.982** | 0.973 | **1.000** |
+| Logistic Regression | 0.978 | 0.965 | 0.959 | 0.986 |
+| Random Forest | 0.996 | 0.965 | 0.959 | 0.986 |
+| Naive Bayes | 0.941 | 0.947 | 0.919 | 0.958 |
+| Decision Tree | **1.000** | 0.930 | 0.908 | 0.972 |
+
+### Key Findings
+
+* **Optimal Performance**: The **KNN**, **SVM**, and **ANN** models demonstrated the highest performance.
+* **Critical Recall Score**: Crucially, **KNN, SVM, and ANN** all achieved a perfect **Recall score of 1.000** on the test set. This means the models correctly identified **100% of the actual malignant cases**, which is the most important factor in this medical application to ensure no cancer case is missed (zero False Negatives).
+* **Overfitting**: The Decision Tree model showed signs of overfitting (100% Train Accuracy vs. 93.0% Test Accuracy).
+
+## ✅ Final Conclusion
+
+The **K-Nearest Neighbors (KNN)** model is selected as the best classifier for this task, achieving the highest Test Accuracy of **0.991** while maintaining a perfect **1.000 Recall** score.
+
+
 
 # Final Note
 
