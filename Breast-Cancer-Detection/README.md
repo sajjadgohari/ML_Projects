@@ -96,7 +96,7 @@ Model performance was primarily assessed using **Test Accuracy** (for generaliza
 The **K-Nearest Neighbors (KNN)** model is selected as the best classifier for this task, achieving the highest Test Accuracy of **0.991** while maintaining a perfect **1.000 Recall** score.
 
 
-# 🌟 Final Project Note: Foundational AI and Breast Cancer Detection 🎗️
+# 🌟 Note: Breast Cancer Detection 🎗️
 
 I was genuinely excited about this project, which I have now successfully completed as a foundational step in my learning journey! My intense interest in Artificial Intelligence (AI) was the primary driver that motivated me to start learning Machine Learning. After grasping the fundamental concepts and successfully completing several smaller practice projects, I finally embarked on this work—an initial, yet deeply meaningful, application in the fields of medicine and AI.
 
@@ -104,4 +104,4 @@ Throughout this project, my main goal was to solidify core Machine Learning conc
 
 I approached this project using educational resources available online and drew inspiration from the structure and methodologies of previously completed beginner-level projects in the ML community. This structured approach helped me learn the proper methodology and prepared me for more complex endeavors ahead. 🚀
 
- **🎀 Pink Ribbon for Breast Cancer Awareness 🎀** 
+ **🎗️ Pink Ribbon for Breast Cancer Awareness 🎗️** 
